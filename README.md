@@ -20,7 +20,9 @@ samplename.T.bam
 
 samplename.T.bam.bai
 
-The maf file should contain the following columns, which can be extracted from the original maf file from somaticwrapper pipeline **Note:** The sample name, sample directory name, and `Tumor_Sample_Barcode` must be the same.
+The maf file should contain the following columns, which can be extracted from the original maf file from somaticwrapper pipeline.
+
+ **Note:** The sample name, sample directory name, and `Tumor_Sample_Barcode` must be the same.
 
 Hugo_Symbol     Chromosome      Start_Position  End_Position    Strand  Variant_Classification  Variant_Type    Reference_Allele        Tumor_Seq_Allele1       Tumor_Seq_Allele2       Tumor_Sample_Barcode
 
